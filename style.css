@@ -6,7 +6,6 @@
 }
 
 
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -56,13 +55,10 @@ a,
 } 
 
 .main-title {
-    width: 500px;
+    max-width: 525px;
     color: #f9faf8;
     font-size: 48px;
-    font-weight: bolder;    
-    text-align: left;
-    border: 1px solid;
-
+    font-weight: bolder; 
 }
 
 .signup {
@@ -72,4 +68,47 @@ a,
     border-radius: 8px;
     color: white;  
 
+}
+
+
+
+.content-header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 32px;
+}
+
+.objects {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.boxes{
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.box {
+    min-height: 120px;
+    border: 2px solid #3882f6;
+    flex-shrink: 0;
+    flex-grow: 1;
+    border-radius: 11px;
+    margin: 10px;
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+ 
+    } 
+
+.list-text {
+    text-align: center;
+   
 }
